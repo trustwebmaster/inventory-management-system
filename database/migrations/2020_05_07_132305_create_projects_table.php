@@ -16,13 +16,14 @@ class CreateProjectsTable extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('project_type');
+            $table->string('status');
+            $table->string('project_sponsor');
+            $table->string('start_date');
             $table->integer('user_id')->unsigned();
-            $table->integer('company_id')->unsigned();
             $table->longText('description')->nullable();
-            $table->integer('days')->unsigned()->nullable();
 
             $table->foreign('user_id')->references('id')->on('users')->cascadeOnDelete();
-            $table->foreign('company_id')->references('id')->on('companies')->cascadeOnDelete();
             $table->engine = 'InnoDB';
             $table->timestamps();
         });

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Module name</title>
+    <title>Inventory Management</title>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
@@ -32,7 +32,7 @@
                     <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="/" class="nav-link">Home</a>
                 </li>
             </ul>
 
@@ -49,14 +49,7 @@
             </form>
 
             <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link"href="{{ url('login') }}">Login </a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="{{ route('register') }}">Register </a>
-                </li>
-            </ul>
+
         </nav>
         <!-- /.navbar -->
 
@@ -74,12 +67,6 @@
                             <h1 class="m-0 text-dark"></h1>
                         </div>
                         <!-- /.col -->
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Module Name</li>
-                            </ol>
-                        </div>
                         <!-- /.col -->
                     </div>
                     <!-- /.row -->

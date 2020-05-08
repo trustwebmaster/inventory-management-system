@@ -22,51 +22,41 @@
                 <!-- Add icons to the links using the .nav-icon class
        with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link active">
+                    <a href="/" class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Dashboard 
+                            Home
                         </p>
                     </a>
                 </li>
-                <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-anchor"></i>
-                        <p>
-                            link
-                        </p>
-                    </a>
-                </li>
-
-                <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon far fa-calendar-alt"></i>
-                        <p>
-                            another link
-                        </p>
-                    </a>
-                </li>
-
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                </div>
-
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-fw fa-wrench"></i>
                         <p>
-                            Settings
+                            Projects
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/projects" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>configurations</p>
+                                <p>View Projects</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="projects/create" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Create A Project</p>
                             </a>
                         </li>
                     </ul>
                 </li>
+
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                </div>
 
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 </div>
